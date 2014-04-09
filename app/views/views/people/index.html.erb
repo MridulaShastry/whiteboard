@@ -85,7 +85,6 @@
             <tr>
               <td colspan="5">
                  <input type="button" class="export_button" value="Export List" />
-              </td>
           </tr>
       </tfoot>
     </table>
@@ -118,6 +117,4 @@
 
 <br/>
 
-<% if can? :create, User %>
-    <%= link_to 'New person', new_person_path %>
-<% end %>
+<%= link_to 'New person', new_person_path %>

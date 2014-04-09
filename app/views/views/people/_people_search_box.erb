@@ -41,7 +41,7 @@
 
         <select id="filter_program">
             <option value="">All programs</option>
-        <% User.get_all_programs.each do |p| %>
+        <% User.get_all_years.each do |p| %>
             <option value="<%= p %>"><%= p %></option>
         <% end %>
         </select>

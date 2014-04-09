@@ -83,6 +83,7 @@ group :development, :test do
 
   gem 'shoulda'
   gem 'rspec'
+  
   gem 'rdoc' #,    '2.4.3' #rdoc_rails required RDoc of 2.4.3 - http://stackoverflow.com/questions/2993435/rake-uninitialized-constant-rdocrdoc
   gem 'rspec-rails'
   gem 'factory_girl_rails', '3.4.0'
